@@ -2,31 +2,31 @@
 title : "SERVICES"
 service_list:
 # service item loop
-- name : "Generalist"
+- name : "Web Development"
   image : "images/icons/web-development.png"
   
 # service item loop
-- name : "Graphic Ninja"
+- name : "Web Graphics Editing"
   image : "images/icons/graphic-design.png"
   
 # service item loop
-- name : "Git Maestro"
+- name : "Cloud System Design"
   image : "images/icons/dbms.png"
   
 # service item loop
-- name : "Programmer"
+- name : "Overflow"
   image : "images/icons/software-development.png"
   
 # service item loop
-- name : "Cloud Engieer"
+- name : "Data Visualization"
   image : "images/icons/marketing.png"
   
 # service item loop
-- name : "Dev Ops"
-  image : "images/icons/mobile-app.png"
+- name : "Automating and Digitizing"
+  image : "images/icons/project.png"
 
 # service item loop
-- name : "Web Ops"
+- name : "X-Mobile Development"
   image : "images/icons/mobile-app.png"
 
 

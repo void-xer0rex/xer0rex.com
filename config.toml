@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://ibrexfoo.github.io/www-business-card/"
 title = "Xer0reX | A rex portfolio "
 theme = "somrat"
 # post pagination
@@ -11,7 +11,9 @@ disableLanguages = [] # disable language from here
 # google analutics
 googleAnalytics = "" # example : UA-123-45
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "xer0rex-com.disqus.com" 
+# get your shortname form here : https://disqus.com
+
 
 
 ############################# Outputs ##############################
@@ -43,6 +45,8 @@ link = "plugins/text-animation/text-animation.css"
 
 # JS Plugins
 [[params.plugins.js]]
+link = "plugins/cms/index.js"
+[[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
@@ -67,7 +71,7 @@ logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 logo_width = "150px"
 # Meta data
-description = "This is meta description"
+description = "A professional portfolio about Rex and more."
 author = "Technical Rex"
 
 # Preloader
@@ -78,23 +82,23 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# social site ########################
 [[params.social]]
 icon = "fab fa-facebook-f"
-link = "https://www.facebook.com/somratpro"
+link = "https://www.facebook.com/NPC"
 
 [[params.social]]
 icon = "fab fa-twitter"
-link = "https://twitter.com/somratpro"
-
-[[params.social]]
-icon = "fab fa-instagram"
-link = "https://www.instagram.com/somratpro"
+link = "https://twitter.com/rextech"
 
 [[params.social]]
 icon = "fab fa-github"
-link = "https://github.com/somratpro"
+link = "https://github.com/rbeatie"
+
+[[params.social]]
+icon = "fab fa-github"
+link = "https://github.com/rbeatie"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/in/somratpro"
+link = "https://www.linkedin.com/in/rdev-software"
 
 
 ################################### English language #####################################
@@ -105,7 +109,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Copyright &copy; 2021 made with ❤️ by [Rex T.](mailto:rex@xer0rex.com)"
 
 
 ################# english navigation ##################
@@ -160,7 +164,7 @@ contentDir = "content/french"
 weight = 2
 home = "Accueil"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Copyright &copy; 2021 made with ❤️ by [Rex T.](mailto:rex@xer0rex.com)"
 
 
 ################# english navigation ##################

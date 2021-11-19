@@ -1,9 +1,9 @@
 ---
-title: "Project Title"
-date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item1.jpg"
-categories: ["design","development"]
-description: "This is meta description."
+title: "1st Place Hack-A-Thon"
+date: 2018-07-01T12:14:34+06:00
+image: "images/portfolio/iot-hackathon_sized.jpg"
+categories: ["awards","development","reactjs", "hackathon","women who code","team player"]
+description: "a compition to create an IoT product themed for *Sustainable Futures*"
 draft: false
 project_info:
 - name: "Client"
@@ -41,8 +41,3 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porr
 
 #### Project Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.

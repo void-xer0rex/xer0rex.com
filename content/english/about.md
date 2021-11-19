@@ -14,57 +14,92 @@ experience:
   experience_list:
     # experience item loop
     - name : "Principal Technical Support Engineer and Developer"
-      duration : "2018-2021"
       company : "Twilio, Inc"
-      content : "I worked with engineering teams for international business giants to help them troubleshoot communication code and solve a wide range of technical issues and corner cases.  I handled most of the more complex tickmets and trained the new Twilions onboarding with a focus on our composite product, Flex."
+      duration : "2018-2021"
+
+      content: "My duties were to lead customers through Twilio's features which can be complex and not visible. To attend daily meetings and provide updates and critical (and constructive) feedback to my co-workers. My jobs proiorty was supporting and trail blazing Twilio's new product at the time Flex.
+      <p>
+      My tickets gave a wide range of experiences from large number and eclectic  accounts. Solo developers with personal projects to start-ups to global businesses and personalized accounts. My duties were to listen and empathize with my customer's concerns and guide them to a fitting solution and shed a light on our systems so they were more able to self-service in the future.
+      <p>
+      Being a senior support engineer I was responsible for answering questions for those onboarding and assigning tickets I thought would be good for those ramping up. For both customers and co-workers, I would explain the processes and logic for products that powered Flex like [TaskRouter](https://docs.twilio.com/taskrouter) and [(deprecated) Proxy](https://docs.twilio.com/proxy) to help prime their Twilio experience. 
+      <p>
+      My duties also included providing support to a wide range of technical issues that would come up using any of Twilio's products that had to do with [Flex](https://flex.twilio.com), an omni-communication virtualized contact center. Also responsible for writing or updating tutorials, step by steps and updated and ensured the quality of [Flex's public-facing documentation](https://docs.twilio.com/flex)."
+    # experience
+    - name: "Product Documentation Website (Prototype)"
+      company: "DigitalOcean"
+      duration: "2018 - contract"
+      content: "The coder for the pitch prototype of DigitalOceans product [documentation website](https://docs.digitalocean.com/products/getting-started/). The site was made from a [Hugo Theme](https://gohugo.io)."
+  
+   # experience
+    - name: "Head of Engineering for Infrastructure"
+      company: "Code for America - PDX Brigade"
+      duration: "2019"
+      content: "Responsibilities included managing and leading a team of volunteer engineers to help improve our development process and designing new systems for streamlining our projects and exploring new technology."
+
+    # experience
+    - name: "Software Engineer"
+      company: "PushP0P <LaunchCode Incubation>"
+      duration: "2018"
+      content: "A lead team member of positive socially impacting engineers responsible for helping teach and manage our SCRUM and lead software designer for the project technical architecture. The project's focus was a meal-search engine for users with food allergies."
+
+    # experience
+    - name: "Front End Engineer"
+      company: "Mumba Cloud"
+      duration: "Aug 2016 - Feb 2017"
+      content: "An awesome company and good people! They were pushing into the frontiers of the web, they taught me how to SCRUM and what it means to build once and update all."
+
       
     # experience item loop
-    - name : "Graphics Ninja"
-      company : "*.*"
-      duration : "2015-Current"
-      content : Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
+    - name : "Graphics and Image Editing"
+      company : "Freelance"
+      duration : "Since 2015"
+      content : "Eclectic graphic work. Common responsibilities are updating and resizing images or logos. This includes ensuring they are optimized for the web and reactive to user screen size or device."
+
+
     # experience item loop
-    - name : "Cloud Generalist"
+    - name : "Software Engineer"
       company : "Freelance"
       duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
-
-
-    # experience item loop
-    - name : "Cloud Engineer"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+      content : "Contracted for overflow and code work for private projects to gain experience and gain traction in the tech industry"
 
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "COMFORT LEVEL"
   skill_list:
     # skill item loop
     - name : "Web Development"
-      percentage : "98%"
-      
-    # skill item loop
-    - name : "Graphic Design"
-      percentage : "95%"
+      percentage : "85%"
       
     # skill item loop
     - name : "Documentarian"
-      percentage : "85%"
+      percentage : "75%"
 
     # skill item loop
     - name : "ReactJS"
-      percentage : "95%"
+      percentage : "90%"
 
     # skill item loop
-    - name : "Angular 2+"
-      percentage : "%80"
+    - name : "Twilio Platform and SDKs"
+      percentage : "95%"
     
     # skill item loop
-    - name : "WIP - AI and Machine Learning"
-      percentage : "20%"
+    - name : "AI and Machine Learning"
+      percentage : "60%"
+
+# skill item loop
+    - name : "Angular 2+"
+      percentage : "70%"
+    
+    # skill item loop
+    - name : "DevOps"
+      percentage : "74%"
+      
+    # skill item loop
+    - name : "Graphic Design"
+      percentage : "80%"
+      
+
       
 
 # custom style
@@ -74,17 +109,5 @@ custom_css: ""
 ---
 
 ## Bio 
-Web developer is a hat I wear often. I am wide ranged and rounded with OOP being my focus mostly where I mostly write code in JavaScript and G as a generalist with four years on enterprise scale teams where I am able to provide valueen in positions with unclear expectations and goals. Years of experience on large enterprise and rapidly changing code bases has given me an understadning of how global teams work and how to work with and have fun with sets of eclectic teammates often decentrelized which I am known to ascend in ranks quickly to leaderhip positions.
+Web Developer and programmer. I'm a generalist in practice however canonically I'm a full-stack JavaScript developer with an appreciation for good documentation. My offtime I doodle on my notes useing key words as a motif for collage-type art. I'm often found haunting online classes that have some relation to porogramming AI or .
 
-Briefly mentioned above I am an expert in JavaScript. Working with Frameworks like ReactJS has goptten me fluent with them and have a solid understadning of Agular. I am a SCRUM fanatic and have increasingly concenring addiction to nerdcore music. 
-
-A products documentation is a focus of mine and something I notice a lot of because I use it virtually every day. Writing good documentation has been (and still is) a challenge for me however I still am finding great value in it. I believe that the documentation a company has and the processes that it takes to make their documention accessible and of quality for their consumers shows that they care about their product and symbolizes the quality of empathy that company has for their customers. 
-
-## Work
-My most recent employment was with Cloud Communications Platform where I worked on ther documentation for Twilio's Flex and provided technical support for it's highly customizable implementations and the pother products offered by Twilio's Cloud. 
-
-## Curently...
- 
- I have been interested in Enterprise developmentprocesses and am currently working in cross-platform development to streamline deploys for mainstream mobile devices and displays and CI testing. 
- 
-## AIs and ML

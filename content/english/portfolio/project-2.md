@@ -19,12 +19,13 @@ project_info:
   icon: "fas fa-redo"
   content: "This is in a loop"
 ---
+   https://www.linkedin.com/in/rdev-software
+3/11
+ngiseD secruoseR noitamrofnI dna aidemitluM/latigiD ,egaP beW · etacifitreC pmaCedoCeerf
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+   https://www.linkedin.com/in/rdev-software
+3/11
+ngiseD secruoseR noitamrofnI dna aidemitluM/latigiD ,egaP beW · etacifitreC pmaCedoCeerf
 
 
 #### Project Details
