@@ -26,4 +26,11 @@
 </script>
 {{ end }}
 
-<script src="scripts/index.js" type="module"></script>
+{{ range site.Params.scripts }}
+<script 
+  src="{{.src | absURL}}"
+></script>
+{{end}}
+
+
+<script src="./js/index.js" type="module"></script>

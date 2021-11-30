@@ -1,23 +1,26 @@
 // shared config (dev and prod)
-const { resolve } = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const  HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path');
 
 module.exports = {
-    mode: "development",
-    entry: [
-        "react-hot-loader/patch", // activate HMR for React
-        "webpack-dev-server/client?http://localhost:8080",
-        "static/scripts/index.ts"
-    ],
-  resolve: {
-    extensions: [".js", ".jsx", ".ts", ".tsx"],
+  mode: "development",
+  entry: [
+    // "react-hot-loader/patch", // activate HMR for React
+    // "webpack-dev-server/client?http://localhost:8080",
+    "./static/scripts/index.ts"
+  ],
+  output: {
+    path: path.resolve(__dirname, './static/js'),
+    filename: 'index.js'
   },
-  context: resolve(__dirname, "static/scripts/"),
+  resolve: {
+    extensions: [".js", ".ts", ".jsx"],
+  },
   module: {
     rules: [
       {
-        test: [/\.jsx?$/, /\.tsx?$/, /\.ts?$/],
-        use: ["babel-loader"],
+        test: /\.tsx?$/,
+        use: 'ts-loader',
         exclude: /node_modules/,
       },
       {
@@ -37,17 +40,15 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ template: "index.html.ejs" })],
-  devServer: {
-    hot: "only", // enable HMR on the server
-    historyApiFallback: true, // fixes error 404-ish errors when using react router :see this SO question: https://stackoverflow.com/questions/43209666/react-router-v4-cannot-get-url 
-  },
+  plugins: [
+    new HtmlWebpackPlugin()
+  ],
   devtool: "cheap-module-source-map",
   externals: {
     react: "React",
     "react-dom": "ReactDOM",
   },
   performance: {
-    hints: false,
-  },
+    hints: false
+  }
 };

@@ -23,7 +23,7 @@ experience:
       <p>
       Being a senior support engineer I was responsible for answering questions for those onboarding and assigning tickets I thought would be good for those ramping up. For both customers and co-workers, I would explain the processes and logic for products that powered Flex like [TaskRouter](https://docs.twilio.com/taskrouter) and [(deprecated) Proxy](https://docs.twilio.com/proxy) to help prime their Twilio experience. 
       <p>
-      My duties also included providing support to a wide range of technical issues that would come up using any of Twilio's products that had to do with [Flex](https://flex.twilio.com), an omni-communication virtualized contact center. Also responsible for writing or updating tutorials, step by steps and updated and ensured the quality of [Flex's public-facing documentation](https://docs.twilio.com/flex)."
+      My duties also included providing support to a wide range of technical issues that would come up using any of Twilio's products that had to do with [Flex](https://flex.twilio.com), an omni-communication virtualized contact center. **Also responsible for writing or updating tutorials, step by steps and updated and ensured the quality of [Flex's public-facing documentation](https://docs.twilio.com/flex).**"
     # experience
     - name: "Product Documentation Website (Prototype)"
       company: "DigitalOcean"

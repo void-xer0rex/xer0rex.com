@@ -6,15 +6,15 @@ service_list:
   image : "images/icons/web-development.png"
   
 # service item loop
-- name : "Web Graphics Editing"
+- name : "Graphic Editing"
   image : "images/icons/graphic-design.png"
   
 # service item loop
-- name : "Cloud System Design"
+- name : "Personalized Clouds"
   image : "images/icons/dbms.png"
   
 # service item loop
-- name : "Overflow"
+- name : "Overflow Work"
   image : "images/icons/software-development.png"
   
 # service item loop
@@ -22,8 +22,12 @@ service_list:
   image : "images/icons/marketing.png"
   
 # service item loop
-- name : "Automating and Digitizing"
+- name : "Document Digitizing"
   image : "images/icons/project.png"
+  
+# service item loop
+- name : "Infrastructure and Code Analysis"
+  image : "images/icons/coffee.png"
 
 # service item loop
 - name : "X-Mobile Development"

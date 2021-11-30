@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ibrexfoo.github.io/www-business-card/"
+baseURL = "https://ibrexfoo.github.io/xer0rex.com"
 title = "Xer0reX | A rex portfolio "
 theme = "somrat"
 # post pagination
@@ -21,7 +21,7 @@ disqusShortname = "xer0rex-com.disqus.com"
 home = ["HTML"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 ############################# Plugins ##############################
 
@@ -44,8 +44,6 @@ link = "plugins/owl-carousel/owl.theme.default.min.css"
 link = "plugins/text-animation/text-animation.css"
 
 # JS Plugins
-[[params.plugins.js]]
-link = "plugins/cms/index.js"
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -100,6 +98,10 @@ link = "https://github.com/rbeatie"
 icon = "fab fa-linkedin"
 link = "https://www.linkedin.com/in/rdev-software"
 
+################################### Scripts #####################################
+
+[[params.scripts]]
+src = "https://cdnjs.cloudflare.com/ajax/libs/twilio.js/1.2.0/twilio.min.js"
 
 ################################### English language #####################################
 [Languages.en]
