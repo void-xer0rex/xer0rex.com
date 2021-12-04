@@ -16,14 +16,14 @@ experience:
     - name : "Principal Technical Support Engineer and Developer"
       company : "Twilio, Inc"
       duration : "2018-2021"
-
-      content: "My duties were to lead customers through Twilio's features which can be complex and not visible. To attend daily meetings and provide updates and critical (and constructive) feedback to my co-workers. My jobs proiorty was supporting and trail blazing Twilio's new product at the time Flex.
+      content: "My duties were to lead customers through Twilio's features which can be complex and not publically visible. To attend daily meetings and provide updates and critical (and constructive) feedback to my co-workers. My job priority was supporting and trailblazing Twilio's new product at the time Flex.
       <p>
-      My tickets gave a wide range of experiences from large number and eclectic  accounts. Solo developers with personal projects to start-ups to global businesses and personalized accounts. My duties were to listen and empathize with my customer's concerns and guide them to a fitting solution and shed a light on our systems so they were more able to self-service in the future.
+      My tickets gave an eclectic range of experiences from small solo developers and start-ups to global businesses and personalized accounts. My duties were to listen and empathize with my customer's concerns and work with my team and guide them in implementing a solution. I would also help educate the customer by shedding a light on our systems so they were more able to self-service in the future.
       <p>
-      Being a senior support engineer I was responsible for answering questions for those onboarding and assigning tickets I thought would be good for those ramping up. For both customers and co-workers, I would explain the processes and logic for products that powered Flex like [TaskRouter](https://docs.twilio.com/taskrouter) and [(deprecated) Proxy](https://docs.twilio.com/proxy) to help prime their Twilio experience. 
+      Being a senior support engineer I was responsible for answering questions for those onboarding and assigning tickets I thought would be good for those ramping up. For both customers and co-workers, I would explain the processes and logic for products that powered Flex like [TaskRouter](https://docs.twilio.com/taskrouter) and [(Flex deprecated) Proxy](https://docs.twilio.com/proxy) to help prime their Twilio experience. 
       <p>
       My duties also included providing support to a wide range of technical issues that would come up using any of Twilio's products that had to do with [Flex](https://flex.twilio.com), an omni-communication virtualized contact center. **Also responsible for writing or updating tutorials, step by steps and updated and ensured the quality of [Flex's public-facing documentation](https://docs.twilio.com/flex).**"
+    
     # experience
     - name: "Product Documentation Website (Prototype)"
       company: "DigitalOcean"

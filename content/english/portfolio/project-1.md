@@ -2,17 +2,17 @@
 title: "1st Place Hack-A-Thon"
 date: 2018-07-01T12:14:34+06:00
 image: "images/portfolio/iot-hackathon_sized.jpg"
-categories: ["awards","development","reactjs", "hackathon","women who code","team player"]
-description: "a compition to create an IoT product themed for *Sustainable Futures*"
+categories: ["awards","development","reactjs","hackathon","women who code","team player"]
+description: "a compitition to create an IoT product themed for *Sustainable Futures*"
 draft: false
 project_info:
-- name: "Client"
-  icon: "fas fa-user"
-  content: "John Doe"
-- name: "Project Link"
-  icon: "fas fa-link"
+- name: "Intel"
+  icon: "fas fa-microchip"
+  content: "https://01.org/blogs/2018/inspiration-from-local-iot-hackathon"
+- name: "Nike"
+  icon: "nike"
   content: "https://examplesite.com/"
-- name: "New Item"
+- name: "NASA"
   icon: "fas fa-globe"
   content: "Add whatever you want"
 - name: "Loop Item"

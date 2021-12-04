@@ -1,9 +1,9 @@
 // @ts-ignore
 import { v4 as uuidv4 } from 'uuid';
 
-console.log(uuidv4());
 
 const VERSION = 'v3';
+const USER_ENDPOINT = 'https://api.github.com/users'
 const DOMAIN: string = 'api.github.com';
 const GIST_B64_PATH: string = `/application/vnd.github.${VERSION}.base64`
 const PERSONAL_ACCESS_TOKEN: string = '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';
@@ -38,7 +38,7 @@ const URL = DOMAIN + GIST_B64_PATH;
  allow_signup	string	Whether or not unauthenticated users will be offered an option to sign up for GitHub during the OAuth flow. The default is true. Use false when a policy prohibits signups. 
  * */  
 export async function getUserOAuthCode(): Promise<any> {
-  console.log('Authing');
+
   if (localStorage.getItem('state')) {
     return localStorage.getItem('state');
   }
@@ -68,7 +68,6 @@ export async function getUserOAuthCode(): Promise<any> {
     'X-Rex': 'Loves You!'
   }
 });
-console.log('sanity', url, request);
 
   return await fetch(signinURL, request)
   .then(result => result.json()
@@ -80,7 +79,7 @@ console.log('sanity', url, request);
  * @returns []GithubClient.Gist
  */
 export async function getGists() { 
-  console.log('running gists');
+
   const result = await getUserOAuthCode()
   .then(async (oAuthCodeResult): Promise<any> => await oAuthCodeResult.json())
   .catch(e => console.error('oAuth2 code retreival failed: ' +  e.message));
@@ -93,13 +92,38 @@ export async function getGists() {
   
   console.log('making REST call with: ', requestConfig);
     return await fetch(URL, requestConfig
-      ).then(result => result
+      ).then(async result => await result
         .json()
-        .then((response: Response) => {
-          console.log('JSON response', response);
-          return response;
+        .then((data: Response) => {
+          console.log('JSON response', data);
+          return data;
       })
     ).catch(e => {
         console.log('error: ' + e.code ? e.status + ': ' + e.statusText : e);
     })
 }
+
+/**
+ * makes a fetch to github and returns userdata or error
+ * @param user string
+ * @param paths ...string | string[] | "repos" | "gists" 
+ */
+export async function getGithubData(user: string, ...paths: string[]): Promise<any> {
+  const githubPath: any = (p: string): any =>  encodeURI(`${USER_ENDPOINT}/${user}/${p}`);
+  return paths
+    .map(async path => await fetch(githubPath(path))
+      .then(async res => await res.json()));
+      
+};
+
+
+//   for (const path of paths) {
+//     return await fetch(encodeURI(`${USER_ENDPOINT}/${user}/${path}`))
+//     .then(async result => {
+//       return await result.json()
+//     })
+//     .catch(e => e);
+//   }
+//  }
+
+ 

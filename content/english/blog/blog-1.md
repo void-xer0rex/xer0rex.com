@@ -16,10 +16,7 @@ He seemed really inteligent for a cat though I am sure most would say the same a
 At times I felt neglectful because it looked like he could have been cared for in a better way with soneone who could spend time exploring his problem solving ablities because he always looked like he wanted to solve a puzzle to me. 
 
 ## Relations / Cat Nip
-
-He grew quiker than his siblings and started getting a bit of a weight problem. He definiatley prefered couches over trees. He made a great lap blanket and was affectionate with my roomates kid which they grew together and bonded. My roomate treated Merp like her baby which is always weird to me but he seemed to love it. He was a snuggler and would always find ways to wiggle in and curl up with someone and pur loudly when discovered. Him walking out 
-
-
+He grew quiker than his siblings and started getting a bit of a weight problem. He definiatley prefered couches over trees. He made a great lap blanket and was affectionate with my roomates kid which they grew together and bonded. My roomate treated Merp like her baby which is always weird to me but he seemed to love it. He was a snuggler and would always find ways to wiggle in and curl up with someone and pur loudly when discovered. Him walking out.
 
 #### Heading Ulala!
 

@@ -1,7 +1,7 @@
 ---
 title: "Project Title"
-date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item2.jpg"
+date: "2020-05-12T12:14:34+06:00"
+image: "https://avatars.githubusercontent.com/u/90520599?v=4"
 categories: ["design","development"]
 description: "This is meta description."
 draft: false
@@ -25,7 +25,7 @@ ngiseD secruoseR noitamrofnI dna aidemitluM/latigiD ,egaP beW · etacifitreC pma
 
    https://www.linkedin.com/in/rdev-software
 3/11
-ngiseD secruoseR noitamrofnI dna aidemitluM/latigiD ,egaP beW · etacifitreC pmaCedoCeerf
+ngiseD secruoseR noitamrofnI dna aidemitluM/latigiD,egaP beW · etacifitreC pmaCedoCeerf
 
 
 #### Project Details
