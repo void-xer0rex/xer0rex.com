@@ -1,9 +1,9 @@
 ---
-title: "This Is A Simple Blog Post"
+title: "What Do I Do? I think I'm hacked"
 date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/item2.jpg"
-tags: ["design","art"]
-description: "This is meta description."
+tags: ["public service","empowerment","hacking","positive impact","help"]
+description: "Though I am currently being victimized in a hacking heavy event that has been going on for years. I'm not sure how to hanlde this I am sharing my thoughts and notes."
 draft: false
 ---
 
