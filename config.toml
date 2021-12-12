@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ibrexfoo.github.io/xer0rex.com"
+baseURL = "https://ibrexfoo.github.io/"
 title = "Xer0reX | A rex portfolio "
 theme = "somrat"
 # post pagination
@@ -206,11 +206,3 @@ name = "Contact"
 pre = "#"
 url = "contact"
 weight = 6
-
-[[module]]
-[[module.import]] 
-disable = false
-path = "github.com/processing/p5.js-website"
-[[module.mounts]]
-source = "src/assets/js/"
-target = "assets/js/vendor"
