@@ -12,7 +12,7 @@
     "start": "hugo server --disableFastRender",
     "tsc-node": "tsc && node ./static/scripts/"
   },
-  "author": "rex@xer0rex.com",
+  "author": "rex+github@xer0rex.com",
   "license": "UNLICENSED",
   "dependencies": {
     "async": "^3.2.2",
