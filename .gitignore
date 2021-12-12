@@ -3,7 +3,8 @@
 .local*
 *node_modules
 node_modules
-themes
+themes/
 resources
 static/scripts
-*package-lock.json
+_package-lock.json
+package-lock.json
