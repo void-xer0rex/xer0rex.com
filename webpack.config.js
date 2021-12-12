@@ -1,13 +1,14 @@
 // shared config (dev and prod)
-const  HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require('path');
+import "html-webpack-plugin";
+import 'path';
 
-module.exports = {
+export default () => ({
   mode: "development",
   entry: [
     // "react-hot-loader/patch", // activate HMR for React
     // "webpack-dev-server/client?http://localhost:8080",
-    "./static/scripts/index.ts"
+    // "./static/scripts/index.ts" // for Browser
+    "./index.ts" // for NodeJS
   ],
   output: {
     path: path.resolve(__dirname, './static/js'),
@@ -51,4 +52,4 @@ module.exports = {
   performance: {
     hints: false
   }
-};
+});

@@ -9,8 +9,11 @@ bg_image : "images/backgrounds/full-nav-bg.jpg"
 occupations:
 - "Cloud Engineer"
 - "Twilio Nerd"
-- "Team-mate"
+- "Partner"
+- "Mentor"
+- "Volunteer"
 - "Programmer"
+- "Social Entrepreneur"
 - "Squad Leader"
 - "Front End Engineer"
 - "Web Developer"
@@ -24,7 +27,8 @@ slider_images:
 - "images/slider/slider-1.jpg"
 - "images/slider/slider-2.jpg"
 - "images/slider/slider-3.jpg"
-- "images/slider/slider-4.jpg"
+- "images/slider/slider-4.png"
+- "images/slider/slider-5.jpg"
 
 # button
 button:

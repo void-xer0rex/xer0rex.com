@@ -8,11 +8,14 @@
     "build": "./node_modules/.bin/webpack && hugo",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "./node_modules/.bin/webpack",
-    "start": "npm run webpack && hugo server --disableFastRender" 
+    "start-webpack": "npm run webpack && hugo server --disableFastRender",
+    "start": "hugo server --disableFastRender",
+    "tsc-node": "tsc && node ./static/scripts/"
   },
   "author": "rex@xer0rex.com",
   "license": "UNLICENSED",
   "dependencies": {
+    "async": "^3.2.2",
     "axios": "^0.24.0",
     "babel-loader": "^8.2.3",
     "minify": "^8.0.3",

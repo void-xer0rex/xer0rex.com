@@ -4,7 +4,7 @@ bg_image : "images/backgrounds/need-service.jpg"
 button:
   enable : true
   label : "SAY HELLO!"
-  link : "#contact"
+  link : "https://enne1tqw667xor0.m.pipedream.net"
 
 
 # custom style

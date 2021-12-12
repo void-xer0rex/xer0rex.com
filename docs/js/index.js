@@ -644,9 +644,13 @@ function main() {
                 return mdTemplate;
             }
             catch (e) {
-                console.error('template failed with content: ', content);
-                console.error(e.message);
-                return e;
+                console.error('templating failed');
+                Promise.resolve(content)
+                    .then(function (data) {
+                    console.log('resolving error data state', data);
+                    console.error('template failed with content: ', data);
+                    return data;
+                });
             }
             // data.rdev0rigin = getGithubData('rdev0rigin', 'repos', 'gists')
             // 	.then(response => {

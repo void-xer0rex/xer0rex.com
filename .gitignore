@@ -6,3 +6,4 @@ node_modules
 themes
 resources
 static/scripts
+*package-lock.json
