@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://ibrexfoo.github.io/"
-title = "Xer0reX | A rex portfolio "
+baseURL = "https://ibrexfoo.github.io/xer0rex.com"
+title = "Xer0reX | A rex portfolio"
 theme = "somrat"
 # post pagination
 paginate = "6"
