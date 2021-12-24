@@ -69,8 +69,8 @@ logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 logo_width = "150px"
 # Meta data
-description = "A professional portfolio about Rex and more."
-author = "Technical Rex"
+description = "A professional portfolio of works by Rex."
+author = "Rex the Tech"
 
 # Preloader
 [params.preloader]
@@ -111,7 +111,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2021 made with ❤️ by [Rex T.](mailto:rex@xer0rex.com)"
+copyright = "Copyright &copy; 2021 made with ❤️ by [Rex T.](mailto:rex+portfolio@xer0rex.com)"
 
 
 ################# english navigation ##################
