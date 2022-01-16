@@ -6,11 +6,14 @@ categories: ["awards","development","reactjs","hackathon","women who code","team
 description: "a compitition to create an IoT product themed for *Sustainable Futures*"
 draft: false
 project_info:
+- name: "Nike"
+  icon: "nike"
+  content: "https://examplesite.com/"
 - name: "Intel"
   icon: "fas fa-microchip"
   content: "https://01.org/blogs/2018/inspiration-from-local-iot-hackathon"
-- name: "Nike"
-  icon: "nike"
+- name: "Red Hat - Linux Foundation"
+  icon: "linux"
   content: "https://examplesite.com/"
 - name: "NASA"
   icon: "fas fa-globe"

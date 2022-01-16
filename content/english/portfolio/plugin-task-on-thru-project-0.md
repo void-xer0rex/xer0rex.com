@@ -1,0 +1,1 @@
+"\n\t\t\t---\n\t\t\ttitle: \"plugin-task-on-thru\"\n\t\t\tdate: 2019-09-24T18:52:03Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: A Flex plugin used to stop the worker ffom receiving anymore reservations from a partiqular task. \n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"

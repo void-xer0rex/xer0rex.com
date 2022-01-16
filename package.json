@@ -10,21 +10,27 @@
     "webpack": "./node_modules/.bin/webpack",
     "start-webpack": "npm run webpack && hugo server --disableFastRender",
     "start": "hugo server --disableFastRender",
-    "tsc-node": "tsc && node ./static/scripts/"
+    "tsc-node": "tsc && node ./static/js/node/index.js"
   },
   "author": "rex+github@xer0rex.com",
   "license": "UNLICENSED",
   "dependencies": {
-    "dotenv": "10.0.0",
+    "@types/axios": "^0.14.0",
     "async": "^3.2.2",
     "axios": "^0.24.0",
     "babel-loader": "^8.2.3",
+    "dotenv": "10.0.0",
     "minify": "^8.0.3",
+    "octokit": "^1.7.1",
+    "proxy-agent": "^5.0.0",
+    "sanitize-html": "^2.6.1",
     "sqlite": "^4.0.23",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/axios": "0.14.0",
     "@types/node": "^16.11.12",
+    "@types/sanitize-html": "^2.6.1",
     "@types/uuid": "^8.3.1",
     "@types/webpack": "^5.28.0",
     "@types/webpack-dev-server": "^4.3.1",

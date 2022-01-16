@@ -8,3 +8,4 @@ resources
 static/scripts
 _package-lock.json
 package-lock.json
+.env.local

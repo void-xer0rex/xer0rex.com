@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ibrexfoo.github.io/xer0rex.com"
+baseURL = "https://void-xer0rex.github.io/xer0rex.com/"
 title = "Xer0reX | A rex portfolio"
 theme = "somrat"
 # post pagination
@@ -60,7 +60,6 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
-
 
 #################### default parameters ################################
 [params]

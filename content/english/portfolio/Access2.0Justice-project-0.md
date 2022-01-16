@@ -1,0 +1,1 @@
+"\n\t\t\t---\n\t\t\ttitle: \"Access2.0Justice\"\n\t\t\tdate: 2018-12-29T05:04:32Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: A progressive project for The Commons Law center. \n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"

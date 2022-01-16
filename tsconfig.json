@@ -17,6 +17,10 @@
     "moduleResolution": "Node",
     "sourceMap": true,
     "baseUrl": ".",
-    "outDir": "static/js/node"
+    "outDir": "static/js/node",
+    "typeRoots": [],
+    "types": [
+      "node"
+    ]
   }
 }

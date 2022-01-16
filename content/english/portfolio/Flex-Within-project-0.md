@@ -1,0 +1,1 @@
+"\n\t\t\t---\n\t\t\ttitle: \"Flex-Within\"\n\t\t\tdate: 2019-06-22T20:21:43Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: A simple demonstration of how to provide flex inside of an existing application.\n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"

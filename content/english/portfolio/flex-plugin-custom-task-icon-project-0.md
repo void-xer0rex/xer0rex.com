@@ -1,0 +1,1 @@
+"\n\t\t\t---\n\t\t\ttitle: \"flex-plugin-custom-task-icon\"\n\t\t\tdate: 2020-02-10T22:41:48Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: An example for Twilio Flex showing how to define a custom task channel and providing a Flex Icon.\n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"

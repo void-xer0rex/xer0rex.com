@@ -1,8 +1,7 @@
 ---
 title: "Portfolio"
-description: "This is meta description."
+description: "Here is a collection of the projects I have worked on or with over the past few years."
 draft: false
-
 
 # custom style
 custom_class: "" 
