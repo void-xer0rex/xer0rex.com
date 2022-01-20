@@ -15,7 +15,6 @@
   "author": "rex+github@xer0rex.com",
   "license": "UNLICENSED",
   "dependencies": {
-    "@types/axios": "^0.14.0",
     "async": "^3.2.2",
     "axios": "^0.24.0",
     "babel-loader": "^8.2.3",
