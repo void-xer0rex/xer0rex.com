@@ -1,1 +1,0 @@
-"\n\t\t\t---\n\t\t\ttitle: \"mms2FlexChat\"\n\t\t\tdate: 2020-04-24T15:53:51Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: Allows customer to send in MMS media and render within Flex Chat window\n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"

@@ -1,1 +1,0 @@
-"\n\t\t\t---\n\t\t\ttitle: \"twilio-flex-plugin-outbound-sms\"\n\t\t\tdate: 2020-06-23T01:23:42Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: A plugin example using Flex Flow orchestration and Flex Chat Channels API with Proxy to send outbound sms.\n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"

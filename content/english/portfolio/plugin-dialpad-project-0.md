@@ -1,1 +1,0 @@
-"\n\t\t\t---\n\t\t\ttitle: \"plugin-dialpad\"\n\t\t\tdate: 2019-06-26T01:42:31Z\n\t\t\timage: no image\n\t\t\tcategories: no categories\n\t\t\tdescription: Dialpad plug-in for Twilio Flex\n\t\t\tdraft: true\n\t\t\tproject_info: undefined\n      ---\n      undefined"
