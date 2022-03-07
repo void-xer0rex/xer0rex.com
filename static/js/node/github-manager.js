@@ -55,14 +55,10 @@ var axiosInstance = axios.create({
     maxContentLength: 50 * 1000 * 1000
 });
 var fs = require('fs');
-var GITHUB_CREDENTIALS = {
-    username: process.env.GITHUB_USERNAME,
-    password: process.env.GITHUB_API_KEY
-};
 var USER_ENDPOINT = 'https://api.github.com/users';
 var DOMAIN = 'api.github.com';
 var GIST_ENDPOINT = "https://".concat(DOMAIN, "/gists");
-var PERSONAL_ACCESS_TOKEN = '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';
+var PERSONAL_ACCESS_TOKEN = process.env.GITHUB_PERSONAL_TOKEN;
 var BASIC_AUTH = function (username) { return "basic ".concat(username, ":").concat(PERSONAL_ACCESS_TOKEN); };
 // async function oktokitExample(){
 //   // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
@@ -190,7 +186,9 @@ function getGithubData(user) {
                                                 axiosConfig = {
                                                     url: url,
                                                     method: 'GET',
-                                                    credentials: GITHUB_CREDENTIALS
+                                                    credentials: {
+                                                        token: PERSONAL_ACCESS_TOKEN
+                                                    }
                                                 };
                                                 return [4 /*yield*/, axiosInstance(axiosConfig)
                                                         .then(function (axiosResponse) {
@@ -295,7 +293,8 @@ var Octokit = require("octokit").Octokit;
 var GithubClient = /** @class */ (function () {
     function GithubClient(auth) {
         var _this = this;
-        this.client = new Octokit({ userAgent: 'RexsInternalApp/v0.0.1', auth: auth || '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' });
+        if (auth === void 0) { auth = PERSONAL_ACCESS_TOKEN; }
+        this.client = new Octokit({ userAgent: 'RexsInternalApp/v0.0.1', auth: auth });
         this.client.rest.users.getAuthenticated()
             .then(function (response) {
             console.log('this users response', response);
@@ -321,19 +320,38 @@ var GithubClient = /** @class */ (function () {
     };
     GithubClient.prototype.getRepoReadme = function (options) {
         return __awaiter(this, void 0, void 0, function () {
-            var readmeRequest;
+            var owner, repo, branch, url, config;
+            var _this = this;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        readmeRequest = {
-                            owner: options.owner,
-                            repo: options.repoName,
-                            branch: options.branch
+                        // const readmeRequest = {
+                        //   owner: options.owner,
+                        //   repo: options.repoName,
+                        //   branch: options.branch
+                        // }
+                        console.log('options', options);
+                        owner = options.owner;
+                        repo = options.repoName;
+                        branch = options.branch;
+                        url = "https://raw.githubusercontent.com/".concat(owner, "/").concat(repo, "/").concat(branch, "/README.md");
+                        console.log('URL', url);
+                        config = {
+                            method: 'get',
+                            url: url,
                         };
-                        return [4 /*yield*/, this.client.request('GET /repos/{owner}/{repo}/branches/{branch}', readmeRequest)
-                                .then(function (res) {
-                                console.log('res', res.data.commit);
-                            }).catch(function (error) {
+                        return [4 /*yield*/, axios(url, config)
+                                // return await this.client.request('GET {owner}/{repo}/raw/{branch}', readmeRequest)
+                                .then(function (res) { return __awaiter(_this, void 0, void 0, function () {
+                                return __generator(this, function (_a) {
+                                    switch (_a.label) {
+                                        case 0:
+                                            console.log('res', res.data);
+                                            return [4 /*yield*/, res.data];
+                                        case 1: return [2 /*return*/, _a.sent()];
+                                    }
+                                });
+                            }); }).catch(function (error) {
                                 console.error(error.name + '> ' + error.message);
                             })];
                     case 1: return [2 /*return*/, _a.sent()];

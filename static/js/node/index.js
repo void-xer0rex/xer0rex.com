@@ -36,29 +36,13 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 require('dotenv').config();
 // require('dotenv').config({path: path.join(cwd, './.env.local') });
-var axios = require('axios').default;
-var http = require('http');
-var https = require('https');
-var axiosInstance = axios.create({
-    //60 sec timeout
-    timeout: 60000,
-    //keepAlive pools and reuses TCP connections, so it's faster
-    httpAgent: new http.Agent({ keepAlive: true }),
-    httpsAgent: new https.Agent({ keepAlive: true }),
-    //follow up to 10 HTTP 3xx redirects
-    maxRedirects: 10,
-    //cap the maximum content length we'll accept to 50MBs, just in case
-    maxContentLength: 50 * 1000 * 1000
-});
-// instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 var fs = require('fs');
 var path = require('path');
-var sanitizeHtml = require('sanitize-html');
+// const sanitizeHtml = require('sanitize-html');
 var github = require('./github-manager');
 // ENV STUFF
 var cwd = process.cwd();
 var VERBOSE_LOGGING = false;
-var tempnum = 1;
 function handleError(error, prefix) {
     if (prefix === void 0) { prefix = 'error: '; }
     console.error(prefix + error.name + ': ' + error.message);
@@ -85,13 +69,6 @@ function ifError(test) {
         console.log('Project test', test);
     }
 }
-var PATHWAYS = /** @class */ (function () {
-    function PATHWAYS() {
-    }
-    PATHWAYS.REPOS = 'repos';
-    PATHWAYS.GISTS = 'gists';
-    return PATHWAYS;
-}());
 /**
  * Useing a Service User to fetch the project details from Github's API and creates and writes new templates
  */
@@ -348,7 +325,7 @@ function main() {
         var _this = this;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, new github.GithubClient('')];
+                case 0: return [4 /*yield*/, new github.GithubClient()];
                 case 1:
                     githubClient = _a.sent();
                     return [4 /*yield*/, githubClient.getRepos('rbeatie')];
@@ -356,7 +333,7 @@ function main() {
                     repos = _a.sent();
                     return [4 /*yield*/, repos
                             .map(function (repo, i) { return __awaiter(_this, void 0, void 0, function () {
-                            var frontmatterConfig, readmeOptions, readmeText, frontmatter;
+                            var frontmatterConfig, readmeOptions, readmeText, frontmatter, template;
                             return __generator(this, function (_a) {
                                 switch (_a.label) {
                                     case 0:
@@ -377,7 +354,8 @@ function main() {
                                     case 2:
                                         frontmatter = _a.sent();
                                         console.log('ReadmeResponse', readmeText);
-                                        return [2 /*return*/, packTemplate(frontmatter, {
+                                        template = frontmatter + '\n' + readmeText;
+                                        return [2 /*return*/, packTemplate(template, {
                                                 order: i,
                                                 fileName: repo.name,
                                             })];
@@ -386,6 +364,7 @@ function main() {
                         }); })];
                 case 3:
                     templatePacks = _a.sent();
+                    writeTemplatesToDir(templatePacks);
                     return [2 /*return*/];
             }
         });
