@@ -105,6 +105,10 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-## Bio 
-Web Developer and programmer. I'm a generalist in practice however canonically I'm a full-stack JavaScript developer with an appreciation for good documentation. My offtime I doodle on my notes useing key words as a motif for collage-type art. I'm often found haunting online classes that have some relation to porogramming AI.
-
+## Cloud Engineer 
+<p>10 years of experience as a web developer and front end engineer with years of verifiable success. A practical generalist with a full-stack JavaScript toolset. As a champion of documentation and a defender of data, I know how a person's work ethic is critical to not only building but to securing and protecting our work and customers. A long-time hobby of sketching and digital art has been invaluable to my front end projects and provided a constant ingress of fresh demographics broadening my perspective. 
+</p>
+<p>A wisened eye for aesthetics and years of programming power my contribution to every project and is not exclusive to graphical user interfaces. Value can be seen in my notes, documentation, and code styles, and even will rehydrate a presentation. Comprehensive knowledge of platform development, enterprise architecture, agile methodologies, team cohesion, cloud services, and web-based applications power my opinions as a clever agent of change. 
+</p>
+<p>A unique mix of high-level technology, philosophy, and a practical mindset fuel my love to empower a person to actualize As an enthusiastic team player and child at heart my passion for empathy and goals that promote social equity shows how much community matters to me and how it is the core mechanism for what we call tech.  On the shoulders of giants, built by those who gave before. So I can see that code belongs to everyone and that community matters.
+</p>
