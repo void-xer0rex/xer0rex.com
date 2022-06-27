@@ -11,3 +11,8 @@ package-lock.json
 .env.local
 .env
 credentials.json
+static/js/node/index.js
+
+static/js/node/index.js.map
+static/js/node/github-manager.js.map
+.hugo_build.lock

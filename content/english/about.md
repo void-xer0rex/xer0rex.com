@@ -1,6 +1,6 @@
 ---
 title : "KNOW MORE <br> ABOUT ME"
-image : "images/backgrounds/portrait.jpg"
+image : "https://photos.app.goo.gl/Zpm3DQRuHynU5G5u9"
 # button
 button:
   enable : true
