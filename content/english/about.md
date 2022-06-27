@@ -1,6 +1,6 @@
 ---
 title : "KNOW MORE <br> ABOUT ME"
-image : "https://photos.app.goo.gl/Zpm3DQRuHynU5G5u9"
+image : "images/backgrounds/portrait.png"
 # button
 button:
   enable : true
@@ -15,7 +15,7 @@ experience:
     - name : One Dev Operation
       company : Freelance (Sole Proprietor) - Web and Mobile Software Consulting and
         Engineering
-      duration : "Dec 2018 - April 2021"
+      duration : "April 2021 - Current"
       content : "A revival of the freelancing and volunteer work I was doing up until the end of
         2018, working on projects for friends and private clients. I also do bids on various
         platforms for a mix of short term work. Most of which are building front end elements
@@ -40,14 +40,15 @@ experience:
         20 at the time. My tickets tended to relate to CRM integrations, SSO or Messaging
         and Chat that had me constantly testing our REST APIs and tracking down message
         samples through the different networks and logging systems.
-      - Flex provides omni-channel communication with two prebuilt ReactJS web components.
+        <p>
+        Flex provides omni-channel communication with two prebuilt ReactJS web components.
         This made custom code a common factor that can be time-consuming to support. I
         approached this concern by building generalized code examples so to be reused
         with things like documentation or macros for other tickets. I gave ideas for leveraging
         machine learning with my support managers and helped to build public-facing tutorials
         and step-by-step instructionals with the docs team contributing to Twilio's exceptional
         self-service experience.
-      <p> 
+        <p> 
         Developers and engineers were the majority of our ticket owners requiring that
         I was up to date with current building practices and common CRMs with complex
         ones needing a screen sharing or call to guide configurations or give code assessments.
@@ -68,9 +69,7 @@ experience:
       duration : " Jan 2018 - Mar 2018"
       content : "An aspiring team of software engineers, designers, and future leaders. Developing
         progressive web apps and information systems while building a solid network and
-        professional experience.
-        <p>
-        [link](https://github.com/PushP0P) "
+        professional experience."
 
     - name : Front End Engineer
       company : Mumba Cloud
@@ -122,6 +121,10 @@ custom_class: ""
 custom_attributes: "" 
 custom_css: ""
 ---
+
+{{% alert title="CAUTION: Work in Progress" color="warning" %}}
+  code still wet: features may be slippery!
+{{% /alert %}}
 
 ## Software Engineer 
  10 years of experience in the industry starting with website design and computer
