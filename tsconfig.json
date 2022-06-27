@@ -19,6 +19,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "outDir": "static/js/node",
+    "resolveJsonModule": true,
     "types": [
       "node",
     ]

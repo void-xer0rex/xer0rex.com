@@ -5,98 +5,116 @@ image : "images/backgrounds/portrait.jpg"
 button:
   enable : true
   label : "DOWNLOAD MY RESUME"
-  link : "#"
+  link : "https://drive.google.com/file/d/1PlC0PeI-TVWXy8aUxLqZYgWuhlFtEhyD/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
   enable : true
   title : "EXPERIENCE"
   experience_list:
-    # experience item loop
-    - name : "Principal Technical Support Engineer and Developer"
-      company : "Twilio, Inc"
-      duration : "2018-2021"
-      content: "My duties were to lead customers through Twilio's features which can be complex and not publically visible. To attend daily meetings and provide updates and critical (and constructive) feedback to my co-workers. My job priority was supporting and trailblazing Twilio's new product at the time [Flex](https://flex.twilio.com).
-      <p>
-      My tickets gave an eclectic range of experiences from small solo developers and start-ups to global businesses and personalized accounts. My duties were to listen and empathize with my customer's concerns and work with my team to guide our customers with implementing a solution. While helping I was to also educate the customer by shedding some light on our systems to empower them to self-service in the future.
-      <p>
-      Once I attained a senior support engineer position on the team I was then responsible for answering questions for those onboarding. Also assigning tickets to who I thought would be a good match for teaching our systems. 
-      <p>
-      My duties also included providing support to a wide range of technical issues that would come up using any of Twilio's products that had to do with Flex, an omni-communication virtualized contact center. **Also responsible for writing or updating tutorials, step by steps and updated and ensured the quality of [Flex's public-facing documentation](https://docs.twilio.com/flex)."
-    
-    # experience
-    - name: "Product Documentation Website (Prototype)"
-      company: "DigitalOcean"
-      duration: "2018 - contract"
-      content: "The coder for the pitch prototype of DigitalOceans product [documentation website](https://docs.digitalocean.com/products/getting-started/). The site was made from a [Hugo Theme](https://gohugo.io)."
-  
-   # experience
-    - name: "Head of Engineering for Infrastructure"
-      company: "Code for America - PDX Brigade"
-      duration: "2019"
-      content: "Responsibilities included managing and leading a team of volunteer engineers to help improve our development process and designing new systems for streamlining our projects and exploring new technology."
+    - name : One Dev Operation
+      company : Freelance (Sole Proprietor) - Web and Mobile Software Consulting and
+        Engineering
+      duration : "Dec 2018 - April 2021"
+      content : "A revival of the freelancing and volunteer work I was doing up until the end of
+        2018, working on projects for friends and private clients. I also do bids on various
+        platforms for a mix of short term work. Most of which are building front end elements
+        in JavaScript and Twilio communication integrations, like chat, sms, and VoIP
+        within web apps."
 
-    # experience
-    - name: "Software Engineer"
-      company: "PushP0P <LaunchCode Incubation>"
-      duration: "2018"
-      content: "A lead team member of positive socially impacting engineers responsible for helping teach and manage our SCRUM and lead software designer for the project technical architecture. The project's focus was a meal-search engine for users with food allergies."
+    - name : Principle Technical Support Engineer (L4)
+      company : Twilio
+      duration : "Dec 2018 - April 2021"
+      content :
+        "As a leader on the Flex Support team, I helped build our support team and trained
+        them and our customers in all things relating to Twilio Flex. Initially hired
+        to trailblaze development on the internal and public processes used by others
+        to ramp up with Twilio’s new product, Flex. I was a lead product support engineer
+        and handled customer support tickets. Our customers ranged from single developers
+        to engineering teams for globally recognized companies and groups in the private
+        and public sectors. The product became wildly popular with a growing customer
+        base with a company  that had more than 250,000 active accounts.
+        <p>
+        Handling Flex tickets required a deep understanding of web development HTTPS,
+        REST APIs, ReactJS, and cross-knowledge of Twilio's products which totaled about
+        20 at the time. My tickets tended to relate to CRM integrations, SSO or Messaging
+        and Chat that had me constantly testing our REST APIs and tracking down message
+        samples through the different networks and logging systems.
+      - Flex provides omni-channel communication with two prebuilt ReactJS web components.
+        This made custom code a common factor that can be time-consuming to support. I
+        approached this concern by building generalized code examples so to be reused
+        with things like documentation or macros for other tickets. I gave ideas for leveraging
+        machine learning with my support managers and helped to build public-facing tutorials
+        and step-by-step instructionals with the docs team contributing to Twilio's exceptional
+        self-service experience.
+      <p> 
+        Developers and engineers were the majority of our ticket owners requiring that
+        I was up to date with current building practices and common CRMs with complex
+        ones needing a screen sharing or call to guide configurations or give code assessments.
+        In short I provided closure to customers through informed empathy and being their
+        advocate through the stressful process of finding their solution."
 
-    # experience
-    - name: "Front End Engineer"
-      company: "Mumba Cloud"
-      duration: "Aug 2016 - Feb 2017"
-      content: "An awesome company and good people! They were pushing into the frontiers of the web, they taught me how to SCRUM and what it means to build once and update all."
+    - name : Contractor - Developer - Standard Writer
+      company : DigitalOcean
+      duration : "Apr 2018 - May 2018"
+      content : "I worked as an assistant developer for the lead editors with the goal of building
+        a prototype that would win a budget for the project. The project was started using
+        HUGO and I was responsible for providing aesthetic and functional customizations
+        to the site and setting up a CRM. Our team's endeavor ended in success and the
+        project became the beginning design and template for Digital Oceans product docs."
 
-      
-    # experience item loop
-    - name : "Graphics and Image Editing"
-      company : "Freelance"
-      duration : "Since 2015"
-      content : "Eclectic graphic work. Common responsibilities are updating and resizing images or logos. This includes ensuring they are optimized for the web and reactive to user screen size or device."
+    - name : Software Engineer
+      company : 'PushP0P <LaunchCode Incubation> '
+      duration : " Jan 2018 - Mar 2018"
+      content : "An aspiring team of software engineers, designers, and future leaders. Developing
+        progressive web apps and information systems while building a solid network and
+        professional experience.
+        <p>
+        [link](https://github.com/PushP0P) "
 
-
-    # experience item loop
-    - name : "Software Engineer"
-      company : "Freelance"
-      duration : "2014-2018"
-      content : "Contracted for overflow and code work for private projects to gain experience and gain traction in the tech industry"
-
-############################### Skill #################################
+    - name : Front End Engineer
+      company : Mumba Cloud
+      duration : "Aug 2016 - Feb 2017"
+      content : "A member on a small SCRUM team building a cross platform UI hosted on the cloud
+        for enterprise personal systems. My main responsibilities was to build using TypeScript,
+        Angular 2 components to spec from design mockups. Using the same code style and
+        design patterns my lead would set making sure our code looked unified. Attended
+        daily scrum meetings where we could share our day and support each other.  I would
+        sometimes work on the back end and had also worked on their typography guide. "  
+    ############################### Skill #################################
 skill:
   enable : true
   title : "COMFORT LEVEL"
   skill_list:
     # skill item loop
-    - name : "Web Development"
+    - name  : "Web Development"
       percentage : "85%"
       
     # skill item loop
-    - name : "Documentarian"
-      percentage : "75%"
+    - name  : "Documentarian"
+      percentage : "75%"  
 
     # skill item loop
-    - name : "ReactJS"
+    - name  : "ReactJS"
       percentage : "90%"
-
     # skill item loop
-    - name : "Twilio Platform and SDKs"
+    - name  : "Twilio Platform and SDKs"
       percentage : "95%"
     
     # skill item loop
-    - name : "AI and Machine Learning"
+    - name  : "AI and Machine Learning"
       percentage : "60%"
 
     # skill item loop
-    - name : "Angular 2+"
+    - name  : "Angular 2+"
       percentage : "70%"
     
     # skill item loop
-    - name : "DevOps"
+    - name  : "DevOps"
       percentage : "74%"
       
     # skill item loop
-    - name : "Graphic Design"
+    - name  : "Graphic Design"
       percentage : "80%"
 
 # custom style
@@ -105,10 +123,18 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-## Cloud Engineer 
-<p>10 years of experience as a web developer and front end engineer with years of verifiable success. A practical generalist with a full-stack JavaScript toolset. As a champion of documentation and a defender of data, I know how a person's work ethic is critical to not only building but to securing and protecting our work and customers. A long-time hobby of sketching and digital art has been invaluable to my front end projects and provided a constant ingress of fresh demographics broadening my perspective. 
-</p>
-<p>A wisened eye for aesthetics and years of programming power my contribution to every project and is not exclusive to graphical user interfaces. Value can be seen in my notes, documentation, and code styles, and even will rehydrate a presentation. Comprehensive knowledge of platform development, enterprise architecture, agile methodologies, team cohesion, cloud services, and web-based applications power my opinions as a clever agent of change. 
-</p>
-<p>A unique mix of high-level technology, philosophy, and a practical mindset fuel my love to empower a person to actualize As an enthusiastic team player and child at heart my passion for empathy and goals that promote social equity shows how much community matters to me and how it is the core mechanism for what we call tech.  On the shoulders of giants, built by those who gave before. So I can see that code belongs to everyone and that community matters.
-</p>
+## Software Engineer 
+ 10 years of experience in the industry starting with website design and computer
+  graphics. A vetted web developer and technical support engineer of 6 years working
+  with top industry teams to diagnose and fix outstanding problems. Skilled in assessing
+  concerns and modeling systems that were not directly visible as a technical support
+  lead where understanding a customer’s preference for communication was critical
+  to providing and meeting the customer's expectations.
+  <p>
+  Being on a team and volunteering with mentorships forced me to discover ways to
+  share ideas with others which have helped me gain a critical eye for code examples
+  and the different forms of guides and developer documentation. Seeing different
+  ways that we all learn has always taught me as well, how to better my process to
+  account for new dynamics. As an engineer at heart I can feel friction when pulling
+  myself away from interesting problems, however investing time in developing infrastructure
+  is core to making what you couldn’t know, suddenly possible.
